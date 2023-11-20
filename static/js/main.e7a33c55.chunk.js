@@ -21559,7 +21559,7 @@
       });
       i(47);
       const Ac = {
-        edge: { title: "The Edge", body: '"What did you expect?"' },
+        edge: { title: "h4ck3r 4ch1v3m3n7", body: '"y0u ju57 h4ck3d"' },
       };
       var mc = () => {
         const [e, t] = Object(s.useState)(null),
