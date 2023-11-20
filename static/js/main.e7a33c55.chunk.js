@@ -10728,7 +10728,7 @@
             headlights: !0,
             headlightColour: 9694965,
           },
-          venus: {
+          hackerland: {
             audio: {
               ambiance: { src: hh, ls: 0.1, le: 0.1 },
               wind: { src: rh, ls: 0.1, le: 0.1 },
@@ -10744,7 +10744,7 @@
             fogNear: -0.1,
             fogFar: 0.5,
           },
-          venusSet: {
+          hackerlandSet: {
             col: 6049571,
             skyCol: 2366739,
             skyColFar: 6049571,
@@ -10797,9 +10797,9 @@
             friction: { road: 0.99, side: 0.95, grass: 0.9 },
             walls: { barrier: Hn },
           },
-          venus: {
-            name: "venus",
-            weathers: ["venus", "venusSet"],
+          hackerland: {
+            name: "hackerland",
+            weathers: ["hackerland", "hackerlandSet"],
             surface: Qn,
             subSurface: Yn,
             gravel: Yn,
@@ -12466,9 +12466,9 @@
             },
             cameras: xr,
           },
-          HackerMobile: {
+          hackercar: {
             enabled: !0,
-            name: "HackerMobile",
+            name: "hackercar",
             bodyObj: i(40),
             wheelObj: i(41),
             map: hr,
@@ -12554,7 +12554,7 @@
           Bike: vehicles.Bike,
           Coach: vehicles.Bus,
           Lambo: vehicles.Lambo,
-          HackerMobile: vehicles.HackerMobile,
+          hackercar: vehicles.hackercar,
         },
         br = 1,
         fr = 2;
@@ -20099,10 +20099,10 @@
           springRain: md,
           snow: md,
           mars: ud,
-          venus: md,
+          hackerland: md,
           night: xd,
           marsRise: gd,
-          venusSet: gd,
+          hackerlandSet: gd,
           moon: ud,
         },
         Wd = {
@@ -20111,7 +20111,7 @@
           autumn: yd,
           winter: wd,
           mars: Id,
-          venus: Md,
+          hackerland: Md,
           moon: Dd,
         },
         Fd = a.a.memo(({ toggleSplash: e }) =>
