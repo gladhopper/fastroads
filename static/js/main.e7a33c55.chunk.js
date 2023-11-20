@@ -12466,9 +12466,9 @@
             },
             cameras: xr,
           },
-          Supercar: {
+          HackerMobile: {
             enabled: !0,
-            name: "Supercar",
+            name: "HackerMobile",
             bodyObj: i(40),
             wheelObj: i(41),
             map: hr,
@@ -12554,7 +12554,7 @@
           Bike: vehicles.Bike,
           Coach: vehicles.Bus,
           Lambo: vehicles.Lambo,
-          Supercar: vehicles.Supercar,
+          HackerMobile: vehicles.HackerMobile,
         },
         br = 1,
         fr = 2;
