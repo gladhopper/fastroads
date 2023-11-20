@@ -12174,6 +12174,7 @@
         ur = i.p + "static/media/veh_car.9991c48a.svg",
         gr = i.p + "static/media/veh_bus.9b1fce50.svg",
         Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
+        hr = i.p + "static/media/tawaf_mobile.skin.png",
         mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
       const xr = {
           Chase: {
@@ -12470,7 +12471,7 @@
             name: "Supercar",
             bodyObj: i(40),
             wheelObj: i(41),
-            map: mr,
+            map: hr,
             icon: ur,
             audio: { roll: cr, engine: pr },
             wheels: {
