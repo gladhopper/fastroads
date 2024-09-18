@@ -12446,7 +12446,7 @@
             metrics: {
               shadowMapSize: 4,
               steerSpeed: 3.0,
-              accel: 40,
+              accel: 1500,
               reverse: 60,
               jerk: 60,
               brake: 50,
@@ -12457,7 +12457,7 @@
               dampening: 0.04,
               rockFactor: 4,
               drag: 0.001,
-              topSpeed: 500,
+              topSpeed: 5000,
               rollResistance: 0.06,
               steerInterval: 1,
               slipBase: 0.1,
