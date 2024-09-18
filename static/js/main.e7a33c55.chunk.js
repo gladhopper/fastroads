@@ -12175,6 +12175,7 @@
         gr = i.p + "static/media/veh_bus.9b1fce50.svg",
         Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
         hr = i.p + "static/media/tawaf_mobile.skin.png",
+        sr = i.p + "static/media/hellcat.skin.png",
         mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
       const xr = {
           Chase: {
@@ -12425,12 +12426,12 @@
             },
             cameras: xr,
           },
-          Lambo: {
+          hellcat: {
             enabled: !0,
-            name: "Lambo",
+            name: "hellcat",
             bodyObj: i(40),
             wheelObj: i(41),
-            map: mr,
+            map: sr,
             icon: ur,
             audio: { roll: cr, engine: pr },
             wheels: {
@@ -12553,7 +12554,7 @@
           Roadster: vehicles.Roadster,
           Bike: vehicles.Bike,
           Coach: vehicles.Bus,
-          Lambo: vehicles.Lambo,
+          hellcat: vehicles.hellcat,
           hackercar: vehicles.hackercar,
         },
         br = 1,
