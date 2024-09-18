@@ -12175,7 +12175,7 @@
         gr = i.p + "static/media/veh_bus.9b1fce50.svg",
         Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
         hr = i.p + "static/media/tawaf_mobile.skin.png",
-        sr = i.p + "static/media/hellcat.skin.png",
+        hellcat = i.p + "static/media/hellcat.skin.png",
         mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
       const xr = {
           Chase: {
@@ -12431,7 +12431,7 @@
             name: "hellcat",
             bodyObj: i(40),
             wheelObj: i(41),
-            map: sr,
+            map: hellcat,
             icon: ur,
             audio: { roll: cr, engine: pr },
             wheels: {
